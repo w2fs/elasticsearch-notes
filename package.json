@@ -1,0 +1,15 @@
+{
+  "name": "elasticsearch-notes",
+  "description": "study notes",
+  "version": "1.0.0",
+  "repository": "git@github.com:w2fs/elasticsearch-notes.git",
+  "author": "Willin Wang <willin@willin.org>",
+  "license": "MIT",
+  "dependencies": {
+    "elasticsearch": "^14.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-dwing": "^1.2.0"
+  }
+}
