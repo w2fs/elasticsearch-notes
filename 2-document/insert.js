@@ -12,7 +12,8 @@ const client = require('../client');
       published: true,
       published_at: '2013-01-01',
       counter: 1
-    }
+    },
+    ignore: [409]
   });
   console.log(inserted);
 })();

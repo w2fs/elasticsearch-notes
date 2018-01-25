@@ -13,10 +13,10 @@ const client = require('../client');
     index: 'demo',
     body: {
       query: {
-        match: {
-          title: 'Updated'
-        }
-      }
+        match_all: {}
+      },
+      from: 1,
+      size: 1
     }
   });
   console.log(hits);
